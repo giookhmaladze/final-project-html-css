@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('../fonts/AvenirNextLTPro-Regular.eot');
+    src: url('../fonts/AvenirNextLTPro-Regular.eot') format('embedded-opentype'),
+        url('../fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+        url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+        url('../fonts/AvenirNextLTPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Land Rover Web';
+    src: url('../fonts/LandRoverWeb-Bold.eot');
+    src: url('../fonts/LandRoverWeb-Bold.eot') format('embedded-opentype'),
+        url('../fonts/LandRoverWeb-Bold.woff2') format('woff2'),
+        url('../fonts/LandRoverWeb-Bold.woff') format('woff'),
+        url('../fonts/LandRoverWeb-Bold.ttf') format('truetype'),
+        url('../fonts/LandRoverWeb-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

@@ -1,0 +1,331 @@
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+h1{
+    font-size: 33px;
+    font-family: 'Land Rover Web';
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .14rem;
+    line-height: 3.3rem;
+}
+h2{
+    font-size: 13px;
+    font-family: 'Avenir Next LT Pro';
+    font-weight: 600;
+    font-style: normal; 
+    color: #4A4F54;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 16px;
+    font-family: 'Land Rover Web';
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+h4{
+    font-family: 'Avenir Next LT Pro';
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+footer li{
+    font-weight: 500;
+
+}
+.box{
+    height: 100%;
+	padding: 32px 20px;
+}
+.box:hover{
+    background-color: rgb(234,232,226);
+}
+.img-box{
+    width: 20px;
+    padding: 27px;
+    height: 100%;
+}
+.searchbar{
+    display: none;
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    
+}
+.serch{
+    width: 100%;
+    height: 80px;
+    padding-left: 0px;
+    border: none;
+    padding-left: 30px;
+    font-size: 30px;
+}
+input:focus{
+    outline: none;
+}
+.round-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    position: fixed;
+    top: 74px;
+    right: 0;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    gap: 20px;
+    display: none;
+    z-index: 4;
+}
+.padding{
+    padding-left: 35px;
+}
+.logo{
+    width: 90px;
+    padding-left: 20px;
+}
+.aa{
+    padding: 0px;
+}
+.img-box:hover{
+    background-color: rgb(234,232,226);
+    cursor: pointer;
+    height: 100%;
+}
+ul{
+    display: flex;
+    font-size: 11px;
+    margin-left: 30px;
+    font-family: 'Avenir Next LT Pro';
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .11pc;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+.header-flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.flex-3{
+    display: flex;
+    align-items: center;
+}
+.round{
+    border-radius: 50%;
+    background-color: rgb(0, 90, 43);
+    position: fixed;
+    top: 90px;
+    right: 40px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(118, 118, 118, 0.7);
+    transition: 0.4s;
+    z-index: 5;
+}
+.round:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.burger{
+    display: none;
+    padding: 25px;
+    
+}
+.appear{
+    display: block;
+}
+.range-L460{
+    width: 100%;
+    margin-top: 50px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #0C121C;
+    color: white;
+    font-size: 10px;
+    font-family: 'Avenir Next LT Pro';
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .11pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+button:hover{
+    background-color: white;
+    border: solid #0C121C 1px;
+    color: #0C121C;
+    cursor: pointer;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.text-grid-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.photo{
+    width: 100%;
+    background-color: none;
+}
+.photo:hover{
+    cursor: pointer;
+}
+.chevron{
+    position: relative;
+    display: inline-block;
+    transition: 0.4s;
+}
+.chevron:hover{
+    color: #005a2b;
+}
+.chevron:hover:after{
+    content: '';
+    height: 1px;
+    width: 86%;
+    background-color: #005a2b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 18px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+.flex-photo{
+    width: 100%;
+}
+.flex-photo:hover{
+    cursor: pointer;
+}
+.card-2{
+    width: 30%;
+    object-fit: cover;
+
+}
+.retailer-box{
+    width: 100%;
+    background-color: rgb(234,232,226);
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.retailer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.text-retailer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items:flex-start;
+    justify-content: center;
+}
+.retailer-photo-box{
+    width: 50%;
+}
+.retailer-photo{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.underline:hover:after{
+    content: '';
+    width:100%;
+    height: 1px;
+    background-color: #4A4F54;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+footer li{
+    position: relative;
+}
+.black-box{
+    width: 50px;
+    height: 50px;
+    background-color:#0C121C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conversation-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.conversation-flex-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.black-box:hover{
+    cursor: pointer;
+}
+.facebook:hover{
+    background-color: #3b5998;
+}
+.twitter:hover{
+    background-color: #00acee;
+}
+.youtube:hover{
+    background-color: #c4302b;
+}
+.instagram:hover{
+    background-color: #feda75;
+}
