@@ -13,5 +13,5 @@ searchButt.addEventListener('click', function(){
 let menuButton = document.getElementById('buttonRound')
 let menuElement = document.getElementById('roundElement')
 menuButton.addEventListener('click', function(){
-    menuElement.classList.toggle('appear')
+    menuElement.classList.toggle('round-flex')
 })
